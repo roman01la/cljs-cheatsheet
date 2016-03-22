@@ -8,9 +8,15 @@
     "type": "git",
     "url": "https://github.com/oakmac/cljs-cheatsheet.git"
   },
+  "scripts": {
+    "start:grunt": "grunt watch",
+    "start:server": "node server.js 3000",
+    "start:lein": "lein clean && lein cljsbuild auto"
+  },
   "devDependencies": {
     "express": "4.12.3",
     "grunt": "0.4.5",
+    "grunt-cli": "^1.0.1",
     "grunt-contrib-clean": "0.6.0",
     "grunt-contrib-copy": "0.8.2",
     "grunt-contrib-less": "0.11.4",
