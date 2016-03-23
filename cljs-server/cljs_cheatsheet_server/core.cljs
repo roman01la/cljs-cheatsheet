@@ -985,25 +985,29 @@
 (def clojure-cheatsheet-href "http://clojure.org/cheatsheet")
 (def clojure-tooltip-cheatsheet-href "http://jafingerhut.github.io/cheatsheet/clojuredocs/cheatsheet-tiptip-cdocs-summary.html")
 (def clojurescript-github-href "https://github.com/clojure/clojurescript")
-(def repo-href "https://github.com/oakmac/cljs-cheatsheet/")
-(def license-href "https://github.com/oakmac/cljs-cheatsheet/blob/master/LICENSE.md")
+(def repo-href "https://github.com/roman01la/cljs-cheatsheet/")
+(def access-href "https://github.com/oakmac/cljs-cheatsheet/issues/6#issuecomment-199989399")
+(def license-href "https://github.com/roman01la/cljs-cheatsheet/blob/master/LICENSE.md")
 
 ;; include this? "Please copy, improve, and share this work."
 ;; TODO: improve the markup here
 (hiccups/defhtml footer []
   [:footer
     [:div.links-446e0
-      [:label.quiet-5d4e8 "reference: "]
-      [:a.ftr-link-e980e {:href clojure-cheatsheet-href} "Clojure cheatsheet"]
+      [:label.quiet-5d4e8 "ссылки: "]
+      [:a.ftr-link-e980e {:href clojure-cheatsheet-href} "Шпаргалка по Clojure"]
       ", "
-      [:a.ftr-link-e980e {:href clojure-tooltip-cheatsheet-href} "Cheatsheet with tooltips"]
+      [:a.ftr-link-e980e {:href clojure-tooltip-cheatsheet-href} "еще одна"]
       ", "
-      [:a.ftr-link-e980e {:href clojurescript-github-href} "ClojureScript source"]]
+      [:a.ftr-link-e980e {:href clojurescript-github-href} "исходники ClojureScript"]]
     [:div.links-446e0
-      [:label.quiet-5d4e8 "source: "]
-      [:a.ftr-link-e980e {:href repo-href} "github.com/oakmac/cljs-cheatsheet"]]
+      [:label.quiet-5d4e8 "исходники сайта: "]
+      [:a.ftr-link-e980e {:href repo-href} "github.com/roman01la/cljs-cheatsheet"]]
     [:div.links-446e0
-      [:label.quiet-5d4e8 "license: "]
+      [:label.quiet-5d4e8 "оригинальный контент использован с разрешения автора: "]
+      [:a.ftr-link-e980e {:href access-href} "oakmac"]]
+    [:div.links-446e0
+      [:label.quiet-5d4e8 "лицензия: "]
       [:a.ftr-link-e980e {:href license-href} "MIT"]]])
 
 ;;------------------------------------------------------------------------------
@@ -1015,7 +1019,6 @@
 (hiccups/defhtml head []
   [:head
     [:meta {:charset "utf-8"}]
-    [:meta {:http-equiv "x-ua-compatible" :content "ie=edge"}]
     [:title page-title]
     [:meta {:name "description" :content "Шпаргалка по ClojureScript"}]
     [:meta {:name "viewport" :content "width=device-width, initial-scale=1"}]
@@ -1092,8 +1095,8 @@
       [:div.column (bitwise-section)]]])
 
 (defn cheatsheet-page []
-  (str "<!doctype html>"
-       "<html>"
+  (str "<!DOCTYPE html>"
+       "<html lang=\"ru\">"
        (head)
        "<body>"
        (header)
