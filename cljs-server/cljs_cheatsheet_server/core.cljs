@@ -985,9 +985,9 @@
 (def clojure-cheatsheet-href "http://clojure.org/cheatsheet")
 (def clojure-tooltip-cheatsheet-href "http://jafingerhut.github.io/cheatsheet/clojuredocs/cheatsheet-tiptip-cdocs-summary.html")
 (def clojurescript-github-href "https://github.com/clojure/clojurescript")
-(def repo-href "https://github.com/roman01la/cljs-cheatsheet/")
+(def repo-href "https://github.com/clojurescript-ru/cljs-cheatsheet/")
 (def access-href "https://github.com/oakmac/cljs-cheatsheet/issues/6#issuecomment-199989399")
-(def license-href "https://github.com/roman01la/cljs-cheatsheet/blob/master/LICENSE.md")
+(def license-href "https://github.com/clojurescript-ru/cljs-cheatsheet/blob/master/LICENSE.md")
 
 ;; include this? "Please copy, improve, and share this work."
 ;; TODO: improve the markup here
@@ -1002,7 +1002,7 @@
       [:a.ftr-link-e980e {:href clojurescript-github-href} "исходники ClojureScript"]]
     [:div.links-446e0
       [:label.quiet-5d4e8 "исходники сайта: "]
-      [:a.ftr-link-e980e {:href repo-href} "github.com/roman01la/cljs-cheatsheet"]]
+      [:a.ftr-link-e980e {:href repo-href} "github.com/clojurescript-ru/cljs-cheatsheet"]]
     [:div.links-446e0
       [:label.quiet-5d4e8 "оригинальный контент использован с разрешения автора: "]
       [:a.ftr-link-e980e {:href access-href} "oakmac"]]
