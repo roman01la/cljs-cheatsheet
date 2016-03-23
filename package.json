@@ -11,7 +11,11 @@
   "scripts": {
     "start:grunt": "grunt watch",
     "start:server": "node server.js 3000",
-    "start:lein": "lein clean && lein cljsbuild auto"
+    "start:lein": "lein clean && lein cljsbuild auto",
+    "build:grunt": "grunt build",
+    "build:html": "node app.js",
+    "build:lein": "lein clean && lein cljsbuild once",
+    "build": "npm-run-all build:lein build:html build:grunt"
   },
   "devDependencies": {
     "express": "4.12.3",
@@ -23,6 +27,7 @@
     "grunt-contrib-watch": "0.6.1",
     "kidif": "1.1.0",
     "marked": "0.3.5",
-    "md5": "2.0.0"
+    "md5": "2.0.0",
+    "npm-run-all": "^1.6.0"
   }
 }
