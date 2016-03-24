@@ -976,7 +976,7 @@
   [:header
     [:h1
       [:img {:src "img/cljs-ring.svg" :alt "Логотип ClojureScript"}]
-      "Шпаргалка по ClojureScript"]
+      "Справочник по ClojureScript"]
     [:input#searchInput {:type "text" :placeholder "Поиск"}]])
 
 (def clojure-cheatsheet-href "http://clojure.org/cheatsheet")
@@ -992,7 +992,7 @@
   [:footer
     [:div.links-446e0
       [:label.quiet-5d4e8 "ссылки: "]
-      [:a.ftr-link-e980e {:href clojure-cheatsheet-href} "Шпаргалка по Clojure"]
+      [:a.ftr-link-e980e {:href clojure-cheatsheet-href} "Справочник по Clojure"]
       ", "
       [:a.ftr-link-e980e {:href clojure-tooltip-cheatsheet-href} "еще одна"]
       ", "
@@ -1011,13 +1011,13 @@
 ;; Head and Script Includes
 ;;------------------------------------------------------------------------------
 
-(def page-title "Шпаргалка по ClojureScript")
+(def page-title "Справочник по ClojureScript")
 
 (hiccups/defhtml head []
   [:head
     [:meta {:charset "utf-8"}]
     [:title page-title]
-    [:meta {:name "description" :content "Шпаргалка по ClojureScript"}]
+    [:meta {:name "description" :content "Справочник по ClojureScript"}]
     [:meta {:name "viewport" :content "width=device-width, initial-scale=1"}]
     [:link {:rel "apple-touch-icon" :href "apple-touch-icon.png"}]
     [:link {:rel "stylesheet" :href "css/main.min.css"}]])
