@@ -2,23 +2,23 @@
 cljs.core/ns
 
 ===== Type
-special form
+специальная форма
 
 ===== Signature
 [name & references]
 
 ===== Description
 
-Sets the namespace of the file.
+Устанавливает пространство имен в файле.
 
-`ns` must be the first form in a `.cljs` file and there can only be one `ns`
-declaration per file. Namespaces must match the file name of their respective
-`.cljs` files, with the exception that dashes in namespaces become underscores
-in filenames. Thus, `(ns foo.bar-biz.baz)` should be the first form in file
+`ns` должна пыть первой и единственной формой в файле `.cljs`.
+Имя пространства имен должно совпадать с именем файла, в котором оно определено.
+Тире в имени пространства имен должны быть нижним подчеркиванием в имени файла.
+Это означает, что `(ns foo.bar-biz.baz)` должна быть первой формой в файле
 `foo/bar_biz/baz.cljs`.
 
-`references` can be zero or more forms used to import other namespaces, symbols,
-and libraries into the current namespace.
+`references` используется для импортирования других пространств имен, символов
+и библиотек в текущее пространство имен.
 
 ===== Related
 

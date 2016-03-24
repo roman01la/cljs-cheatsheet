@@ -2,22 +2,21 @@
 cljs.core/letfn
 
 ===== Type
-special form
+специальная форма
 
 ===== Signature
 [fnspecs & body]
 
 ===== Description
 
-Takes a vector of function definitions `fnspecs` and binds the functions to
-their names. All of the names are available in all of the definitions of the
-functions as well as `body`.
+Принимает вектор определений функций `fnspecs` и привязывает их к их именам.
+Все функции доступны в `body` и во всех других функциях в определении.
 
-`fnspecs` must be a vector with an even number of forms. See `let`.
+`fnspecs` должен быть вектором с четным количеством форм. Смотри `let`.
 
-`letfn` is one of ClojureScript's [special forms].
+`letfn` является [специальной формой] в ClojureScript.
 
-[special forms]:http://clojure.org/special_forms
+[специальной формой]:http://clojure.org/special_forms
 
 ===== Related
 cljs.core/let

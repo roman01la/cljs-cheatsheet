@@ -2,16 +2,16 @@
 cljs.core/declare
 
 ===== Type
-macro
+макрос
 
 ===== Signature
 [& names]
 
 ===== Description
 
-Uses `def` to establish symbols of `names` with no bindings.
+Использует `def` для определения символов `names` без значений.
 
-Useful for making forward declarations.
+Удобно для создания деклараций, которым значение будет присвоено позже.
 
 ===== Related
 cljs.core/def

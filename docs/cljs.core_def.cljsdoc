@@ -2,7 +2,7 @@
 cljs.core/def
 
 ===== Type
-special form
+специальная форма
 
 ===== Signature
 [symbol]
@@ -11,16 +11,15 @@ special form
 
 ===== Description
 
-Creates a global variable with the name of `symbol` and a namespace of the
-current namespace.
+Создает глобальную переменную с именем `symbol` в текущем пространстве имен.
 
-If `init` is supplied, it is evaluated and the result is assigned to `symbol`.
+Если значение `init` определено, тогда оно выполнится и результат будет присвоен `symbol`.
 
-`doc-string` is an optional documentation string.
+`doc-string` необязательная строка документации.
 
-`def` is one of ClojureScript's [special forms](http://clojure.org/special_forms)
-and is used by many macros to define common elements (ie: `defn`, `defmacro`,
-etc).
+`def` одна из [специальных форм](http://clojure.org/special_forms) в ClojureScript.
+Эта форма используется во многих макросах создающих сущности: `defn`, `defmacro`,
+и т.д.
 
 ===== Related
 cljs.core/defn

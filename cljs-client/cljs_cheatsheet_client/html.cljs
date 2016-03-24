@@ -43,7 +43,7 @@
   (let [r2 (map split-full-name r)
         namespaces (distinct (map :namespace r2))]
     (list
-      [:h5.related-hdr-915e5 "Related"]
+      [:h5.related-hdr-915e5 "Похожее"]
       [:div.related-links-f8e49
         (map #(related-links-for-ns % r2) namespaces)])))
 

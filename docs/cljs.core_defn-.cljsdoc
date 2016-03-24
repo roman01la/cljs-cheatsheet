@@ -2,17 +2,16 @@
 cljs.core/defn-
 
 ===== Type
-macro
+макрос
 
 ===== Signature
 [name & decls]
 
 ===== Description
 
-Same as `defn`, but adds `{:private true}` metadata to the definition.
+То же, что и `defn`, но добавляет к определению метаданные `{:private true}`.
 
-Note: `:private` metadata is not currently enforced by the ClojureScript
-compiler.
+Сноска: ClojureScript не использует метаданные `:private`.
 
 ===== Related
 cljs.core/defn

@@ -2,7 +2,7 @@
 cljs.core/defn
 
 ===== Type
-macro
+макрос
 
 ===== Signature
 [name doc-string? attr-map? [params*] prepost-map? body]
@@ -10,22 +10,21 @@ macro
 
 ===== Description
 
-Defines a function.
+Определяет функцию.
 
-`doc-string?` is an optional documentation string.
+`doc-string?` необязательная строка документации.
 
-`attr-map?` is an optional map of [metadata](http://clojure.org/metadata) to
-attach to the global variable name.
+`attr-map?` необязательный словарь [метаданных](http://clojure.org/metadata) прикрепляемый к глобальной переменной.
 
-`prepost-map?` is an optional map with optional keys `:pre` and `:post` that
-contain collections of [pre or post conditions](http://blog.fogus.me/2009/12/21/clojures-pre-and-post/)
-for the function.
+`prepost-map?` необязательный словарь с ключами `:pre` и `:post` которые содержат
+коллекции [пред- и/или пост-условий](http://blog.fogus.me/2009/12/21/clojures-pre-and-post/)
+для функции.
 
 <table class="code-tbl-9bef6">
   <thead>
     <tr>
-      <th>Code</th>
-      <th>Expands To</th></tr></thead>
+      <th>Код</th>
+      <th>Раскрывается в</th></tr></thead>
   <tbody>
     <tr>
       <td><pre>
