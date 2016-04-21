@@ -6,8 +6,9 @@ clojure.string/trim-newline
 
 ===== Description
 
-Removes all trailing newline `\n` or return `\r` characters from string.
+Удаляет из строки все символы возврата каретки `r` или перехода
+на новую строку `\n`.
 
-Similar to Perl's chomp.
+Похож на Perl'овский `chomp`.
 
 ===== Related

@@ -8,11 +8,12 @@ cljs.core/=
 
 ===== Description
 
-Returns true if the value of `x` equals the value of `y`, false otherwise.
+Возвращает `true` если значение `x` равно значению `y`, в противном случае
+возвращает `false`.
 
-`=` is a value comparison, not an identity comparison.
+`=`  сравнивает по значению, а не по ссылке..
 
-All collections can be tested for value, regardless of "depth".
+Все коллекции сравниваются по значению, вне зависимости от "глубины".
 
 ===== Related
 cljs.core/==
