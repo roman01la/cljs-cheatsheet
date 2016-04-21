@@ -6,9 +6,9 @@ cljs.core/pop
 
 ===== Description
 
-For a list, returns a new list without the first item.
+Если применяется к списку, то возвращается новый список без первого элемента.
 
-For a vector, returns a new vector without the last item.
+Если применяется к векторы, то возвращается новый вектор без последнего элемента.
 
 ===== Related
 cljs.core/peek

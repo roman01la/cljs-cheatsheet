@@ -6,6 +6,6 @@ clojure.string/trimr
 
 ===== Description
 
-Removes whitespace from the right side of string.
+Удаляет пробельные символы с правого края строки.
 
 ===== Related

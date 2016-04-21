@@ -6,6 +6,6 @@ clojure.string/reverse
 
 ===== Description
 
-Returns `s` with its characters reversed.
+Возвращает "перевернутую" строку `s`.
 
 ===== Related

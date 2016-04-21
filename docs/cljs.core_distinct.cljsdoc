@@ -6,7 +6,7 @@ cljs.core/distinct
 
 ===== Description
 
-Returns a lazy sequence of the elements of `coll` with duplicates removed.
+Возвращает ленивую последовательность `coll` с удалением повторяющихся элементов.
 
 ===== Related
 cljs.core/distinct?

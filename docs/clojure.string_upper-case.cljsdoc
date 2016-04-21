@@ -6,6 +6,6 @@ clojure.string/upper-case
 
 ===== Description
 
-Converts string to all upper-case.
+Приводит строку к верхнему регистру.
 
 ===== Related

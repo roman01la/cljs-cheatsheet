@@ -6,6 +6,6 @@ clojure.string/trim
 
 ===== Description
 
-Removes whitespace from both ends of string.
+Удаляет пробельные символы с обоих концов строки.
 
 ===== Related

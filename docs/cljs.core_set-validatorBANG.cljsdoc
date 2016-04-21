@@ -6,16 +6,16 @@ cljs.core/set-validator!
 
 ===== Description
 
-Sets a validator function for atom `a`.
+Устанавливает функцию-валидатор для атома `a`.
 
-`fn` must be nil or a side-effect-free function of one argument, which will be
-passed the intended new state on any state change. `fn` should return false or
-throw an Error if the new state is unacceptable.
+Параметр `fn` должен быть либо `nil`, либо чистой функцией, принимающей новое
+состояние в качестве параметра. Если оно не проходит валидацию,
+то `fn` должен либо возвращать `false`, либо генерировать ошибку.
 
-If the current value of `a` is unacceptable to `fn` when `set-validator!` is
-called, an Error will be thrown and the validator will not be set.
+Если текущее значение `a` неприменимо к `fn` во время вызова `set-validator!`,
+то генерируется ошибка и валидатор не устанавливается.
 
-`(set-validator! my-atom nil)` will remove the validator from `my-atom`.
+`(set-validator! my-atom nil)` удаляет валидатор из `my-atom`.
 
 ===== Related
 cljs.core/atom
