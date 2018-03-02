@@ -991,20 +991,20 @@
 (hiccups/defhtml footer []
   [:footer
     [:div.links-446e0
-      [:label.quiet-5d4e8 "ссылки: "]
+      [:label.quiet-5d4e8 "Ссылки: "]
       [:a.ftr-link-e980e {:href clojure-cheatsheet-href} "Справочник по Clojure"]
       ", "
       [:a.ftr-link-e980e {:href clojure-tooltip-cheatsheet-href} "еще одна"]
       ", "
       [:a.ftr-link-e980e {:href clojurescript-github-href} "исходники ClojureScript"]]
     [:div.links-446e0
-      [:label.quiet-5d4e8 "исходники сайта: "]
+      [:label.quiet-5d4e8 "Исходники сайта: "]
       [:a.ftr-link-e980e {:href repo-href} "github.com/clojurescript-ru/cljs-cheatsheet"]]
     [:div.links-446e0
-      [:label.quiet-5d4e8 "оригинальный контент использован с разрешения автора: "]
+      [:label.quiet-5d4e8 "Оригинальный контент использован с разрешения автора: "]
       [:a.ftr-link-e980e {:href access-href} "oakmac"]]
     [:div.links-446e0
-      [:label.quiet-5d4e8 "лицензия: "]
+      [:label.quiet-5d4e8 "Лицензия: "]
       [:a.ftr-link-e980e {:href license-href} "MIT"]]])
 
 ;;------------------------------------------------------------------------------

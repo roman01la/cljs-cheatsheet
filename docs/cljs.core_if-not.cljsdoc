@@ -10,8 +10,8 @@ macro
 
 ===== Description
 
-If `test` is false or nil, evaluates and returns `then`. Otherwise, evaluates
-and returns `else`. `else` defaults to nil if not provided.
+Если `test` будет false или nil, возвращается результат выполнения `then`. В противном случае, evaluates
+возвращается результат выполнения `else`. Поумолчанию `else` приравнивается к nil, если его нету.
 
 ===== Related
 cljs.core/if

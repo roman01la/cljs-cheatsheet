@@ -9,13 +9,11 @@ special form
 
 ===== Description
 
-If `test` is not false or nil, `then` is evaluated and returned. Otherwise,
-`else?` is evaluated and returned. `else?` defaults to nil if not provided.
+Если `test` не false или nil, тогда возвращается результат выполнения `then`. В противном случае,
+возвращается результат выполнения `else?`. Поумолчанию `else?` приравнивается к nil, если его нету.
 
-`if` is one of ClojureScript's [special forms](http://clojure.org/special_forms)
-and is a fundamental building block of the language. All other conditionals in
-ClojureScript are based on `if`s notion of truthiness (ie: anything other than
-false or nil).
+`if` — одна из [специальных форм](http://clojure.org/special_forms) в ClojureScript, которая является базовой конструкцией в языке. Все остальные формы условий
+в ClojureScript выстроены на основе `if`.
 
 ===== Related
 cljs.core/cond

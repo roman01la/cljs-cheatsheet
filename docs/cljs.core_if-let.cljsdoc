@@ -10,10 +10,10 @@ macro
 
 ===== Description
 
-When `test` is logical true, evaluates `then` with the value of `test` bound to
-`x`. Otherwise, evaluates `else` with no bindings.
+Если `test` будет логическим true, результат выполнения `then` будет присвоен в
+`x`. В противном случае, возвращается результат выполнения `else` без присваивания.
 
-`else` defaults to nil.
+Поумолчанию `else` приравнивается к nil.
 
 ===== Related
 cljs.core/when-let
