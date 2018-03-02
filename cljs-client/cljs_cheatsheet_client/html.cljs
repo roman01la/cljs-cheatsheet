@@ -2,7 +2,7 @@
   (:require-macros
     [hiccups.core :as hiccups])
   (:require
-    hiccups.runtime
+    [hiccups.runtime]
     [clojure.string :refer [blank?]]
     [cljs-cheatsheet.util :refer [docs-href js-log log]]
     [cljs-cheatsheet-client.util :refer [extract-namespace extract-symbol split-full-name]]))

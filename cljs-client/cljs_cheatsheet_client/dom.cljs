@@ -1,6 +1,6 @@
 (ns cljs-cheatsheet-client.dom
   "Some DOM helper functions."
-  (:require goog.dom))
+  (:require [goog.dom]))
 
 (def $ js/jQuery)
 

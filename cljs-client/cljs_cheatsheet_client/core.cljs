@@ -1,6 +1,6 @@
 (ns cljs-cheatsheet-client.core
   (:require
-    cljsjs.jquery
+    [cljsjs.jquery]
     [clojure.string :refer [blank? lower-case]]
     [cljs-cheatsheet.util :refer [js-log log]]
     [cljs-cheatsheet-client.dom :refer [by-id get-element-box]]
