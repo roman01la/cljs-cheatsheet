@@ -6,8 +6,8 @@ cljs.core/aclone
 
 ===== Description
 
-Creates a clone of the given JavaScript array `arr`.  The result is a new
-JavaScript array, which is a shallow copy, not a deep copy.
+Клонирует массив JavaScript `arr`. Результатом является новый
+JavaScript массив, который является мелкой копией, а не глубокой копией.
 
 ===== Related
 cljs.core/array

@@ -6,14 +6,13 @@ cljs.core/add-watch
 
 ===== Description
 
-Adds a watch function `f` to atom `a` that will execute when the value of `a`
-changes.
+Добавляет watch функцию `f` в atom `a` которая выполнится, когда значение `a`
+изменения.
 
-The watch function takes 4 arguments: a key, the atom, its old state, and its
-new state.
+Watch функция принимает 4 аргумента: ключ, atom, старое состояние, новое состояние.
 
-`key` should be a keyword and can be used with `remove-watch` to remove the
-watch function.
+`key` должно быть ключевым словом и может использоваться с `remove-watch` для удаления
+watch функции.
 
 ===== Related
 cljs.core/remove-watch
@@ -29,7 +28,7 @@ cljs.core/remove-watch
     (println "new:" new-state)))
 
 (swap! a assoc :foo "bar")
-;;=> will print the following:
+;;=> Выведет следующее:
 ;; old: {}
 ;; new: {:foo "bar"}
 ```

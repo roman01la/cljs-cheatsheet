@@ -8,9 +8,9 @@ cljs.core/==
 
 ===== Description
 
-Returns true if all arguments have the same value, false otherwise.
+Возвращает true, если у всех параметров есть то же значение, иначе false.
 
-Behavior on non-number arguments is undefined.
+Поведение для аргументов, отличных от числа, undefined.
 
 ===== Related
 cljs.core/=
