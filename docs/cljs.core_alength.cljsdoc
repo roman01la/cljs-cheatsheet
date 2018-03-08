@@ -6,7 +6,7 @@ cljs.core/alength
 
 ===== Description
 
-For interop, it returns the length of a JavaScript array or string.
+Возвращает длину массива или строки JavaScript.
 
 ===== Related
 cljs.core/count

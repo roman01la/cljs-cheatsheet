@@ -2,7 +2,7 @@
 cljs.core/->
 
 ===== Type
-macro
+макрос
 
 ===== Signature
 [x & forms]

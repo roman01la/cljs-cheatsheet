@@ -7,9 +7,9 @@ cljs.core/aget
 
 ===== Description
 
-Returns the value at index `i` from JavaScript arrays and objects.
+Возвращает значение по индексу `i` из массивов и объектов JavaScript.
 
-Can be used to retrieve nested properties with the additional `idxs` arguments.
+Может использоваться для извлечения вложенных свойств с дополнительными аргументами `idxs`.
 
 ===== Related
 cljs.core/..
@@ -49,7 +49,7 @@ document.location.href;
 //=> "http://example.com"
 ```
 
-The following are equivalent:
+Эквивалентно:
 
 ```
 ;; ClojureScript
